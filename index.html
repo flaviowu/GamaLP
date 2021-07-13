@@ -5,23 +5,28 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mega Promo!</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./assets/styles/styles.css">
     </head>
     <body>
-        <div>
-            <script src="script.js"></script>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Contato</li>
+            </ul>
+        </nav>
+        <main>
             <h1>70% de Desconto!</h1>
-        </div>
             <p>Cadastre-se e receba um cupom com 70% de desconto em um produto de sua esollha!</p>
-        <div>
+                
             <form name="cadastroForm" onsubmit="return setForm()">
                 Nome: <input type="text" name="name"><br><br>
                 E-mail: <input type="text" name="email"><br>
                 <input type="submit" value="Enviar">
             </form>
-        </div>
-
-        <button type="button" onclick=printaConsole()>ver cadastro!</button>
-
+            <br>
+            <button type="button" onclick=printaConsole()>ver cadastro!</button>
+        </main>
     </body>
+    <script src="./assets/JS/script.js"></script>
 </html>
