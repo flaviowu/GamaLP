@@ -1,34 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300&display=swap');
 
 * {
-    background-color: black;
     margin: 0;
     padding: 0;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
     font-family: 'Roboto', sans-serif;
 }
 
-nav ul{
-    margin: 2rem;
-    padding: 1rem;
+body {
     display: flex;
-    align-items: center;
-    list-style: none;
+    background-image: linear-gradient(black, black, gray);
+    justify-content: center;
 }
 
-nav ul li {
-    margin: 10px;
+.container {
     display: flex;
-    align-items: center;
-}
-
-main form {
-    align-items: center;
+    max-width: 80%;
+    max-height: 90%;
+    margin: 15px;
+    flex-direction:column;
     border-radius: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.anuncio {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+    align-items: center;
 
 }
 
-main form input {
+.textoPromo {
+    text-align: center;
+    font-size: larger;
+    margin: 20px;
+
+}
+
+.navBar ul {
     display: flex;
-    color: green;
+    justify-content: center;
+}
+
+.navBar ul li{
+    display: flex;
+    padding: 1rem;
+    list-style: none;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.formulario {
+    display: flex;
+    padding: 5rem;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(10, 10, 50, 0.500);
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: larger;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input {
+    margin-top: 8px;   
 }
