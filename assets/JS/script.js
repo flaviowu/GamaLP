@@ -4,6 +4,6 @@ function setForm() {
     localStorage.setItem("cadastro", [name, email])
 }
 
-function printaConsole() {
-    console.log(localStorage.getItem("cadastro"))
-}
+// function printaConsole() {
+//     console.log(localStorage.getItem("cadastro"))
+// }
