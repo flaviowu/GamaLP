@@ -24,3 +24,4 @@ Entregáveis:
 
 Bora lá? Então valendo! Esse desafio é individual, mas incentivamos que vocês troquem links entre si para feedbacks dos colegas <3
 
+**Deploy em https://trusting-dijkstra-3aeca0.netlify.app/
